@@ -23,7 +23,8 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "./bin/contact_me.php",
+                //url: "./bin/contact_me.php",
+                url: "//formspree.io/tobias.weierberger@gmx.de",
                 type: "POST",
                 data: {
                     name: name,
