@@ -25,6 +25,7 @@ $(function() {
             $.ajax({
                 //url: "./bin/contact_me.php",
                 url: "//formspree.io/tobias.weierberger@gmx.de",
+                method: "POST", // newly added
                 type: "POST",
                 data: {
                     name: name,
@@ -32,6 +33,7 @@ $(function() {
                     email: email,
                     message: message
                 },
+                dataType: "json", // newly added
                 cache: false,
                 success: function() {
                     // Success message
