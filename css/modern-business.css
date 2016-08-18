@@ -11,8 +11,10 @@ body {
     height: 100%;
 }
 
+
 body {
-    padding-top: 80px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    /*  */
+    /* padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 
 .img-portfolio {
@@ -26,7 +28,7 @@ body {
 /* Home Page Carousel */
 
 header.carousel {
-    height: 60%;
+    height: 50%;
 }
 
 header.carousel .item,
@@ -66,6 +68,14 @@ header.carousel .fill {
     display: block;
     font-style: italic;
 }
+
+.topbar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 
 /* Footer Styles */
 
