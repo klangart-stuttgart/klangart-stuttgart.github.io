@@ -31,9 +31,26 @@
 
 <body>
 
+    <!-- topbar for logo -->
+    
+    <!-- adjustment for logo -->
+    <div class="container">
+        <div class="topbar">
+            <img src="./pics/ExampleLogo.png" alt="">
+        </div>
+    </div>
+
+
     <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    
+    <!-- navbar-fixed-top rausnehmen 
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    -->                   
+
+    <nav class="navbar navbar-inverse" role="navigation">
+        
         <div class="container">
+            
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -42,7 +59,18 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
+                
                 <a class="navbar-brand" href="index.html">Startseite</a>
+                <!-- abgeändert wegen Logo auf die folgende Zeile -->
+                
+                <!--
+
+                <a class="navbar-brand" href="index.html">
+                    <img src="./pics/ExampleLogo.png" alt="">
+                </a>
+
+                -->
+                
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -53,7 +81,7 @@
                     <li>
                         <a href="services.html">Repertoire</a>
                     </li>
-                    <li class="active">
+                    <li>
                         <a href="contact.html">Kontakt</a>
                     </li>
                     <li class="dropdown">
@@ -85,7 +113,7 @@
                                 <a href="blog-home-1.html">Chor News</a>
                             </li>
                             <li>
-                                <a href="blog-home-2.html">Proben News</a>
+                                <a href="blog-home-2.html">Probe News</a>
                             </li>
                             <li>
                                 <a href="blog-post.html">Sonstiges</a>
@@ -120,6 +148,7 @@
         </div>
         <!-- /.container -->
     </nav>
+    <!-- navigation -->
 
     <!-- Page Content -->
     <div class="container">
@@ -149,14 +178,18 @@
             -->
             <div class="col-md-8">
                 <!-- Embedded Google Map -->
-                <iframe width="100%" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2627.7368935020886!2d9.087305951045618!3d48.805999979180775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4799da2a8329ff6b%3A0x13f2140911cf07e9!2sGiebelstra%C3%9Fe+28%2C+70499+Stuttgart!5e0!3m2!1sde!2sde!4v1469983660438"></iframe>
+                
+                <!--iframe width="100%" height="300px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2627.7368935020886!2d9.087305951045618!3d48.805999979180775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4799da2a8329ff6b%3A0x13f2140911cf07e9!2sGiebelstra%C3%9Fe+28%2C+70499+Stuttgart!5e0!3m2!1sde!2sde!4v1469983660438"></iframe-->
+                
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5255.4737869935325!2d9.085122632983444!3d48.805999979282355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4799da2a8329ff6b%3A0x13f2140911cf07e9!2sGiebelstra%C3%9Fe+28%2C+70499+Stuttgart!5e0!3m2!1sde!2sde!4v1472381966040" width="100%" height="300px" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
             
             <!-- Contact Details Column -->
             <div class="col-md-4">
                 <h3>Kontaktdaten</h3>
                 <p>
-                    Giebelstrasse 28<br>70499 Stuttgart-Giebel<br>
+                    Tobias Weierberger<br>Giebelstrasse 28<br>70499 Stuttgart-Giebel<br><br>
+                    Frank Albrecht<br>Giebelstrasse 28<br>70499 Stuttgart-Giebel<br><br>
                 </p>
                 <p><i class="fa fa-phone"></i> 
                     <abbr title="Phone">P</abbr>: +49 711 8601269</p>

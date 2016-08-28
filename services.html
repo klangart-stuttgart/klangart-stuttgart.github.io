@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--<html lang="en">-->
+<html lang="de">
 
 <head>
 
@@ -31,9 +32,26 @@
 
 <body>
 
+<!-- topbar for logo -->
+    
+    <!-- adjustment for logo -->
+    <div class="container">
+        <div class="topbar">
+            <img src="./pics/ExampleLogo.png" alt="">
+        </div>
+    </div>
+
+
     <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    
+    <!-- navbar-fixed-top rausnehmen 
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    -->                   
+
+    <nav class="navbar navbar-inverse" role="navigation">
+        
         <div class="container">
+            
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -42,54 +60,68 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">Start Bootstrap</a>
+                
+                <a class="navbar-brand" href="index.html">Startseite</a>
+                <!-- abgeändert wegen Logo auf die folgende Zeile -->
+                
+                <!--
+
+                <a class="navbar-brand" href="index.html">
+                    <img src="./pics/ExampleLogo.png" alt="">
+                </a>
+
+                -->
+                
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="about.html">About</a>
-                    </li>
-                    <li class="active">
-                        <a href="services.html">Services</a>
+                        <a href="about.html">Über uns</a>
                     </li>
                     <li>
-                        <a href="contact.html">Contact</a>
+                        <a href="services.html">Repertoire</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Kontakt</a>
                     </li>
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio <b class="caret"></b></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Auftritte <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li>
-                                <a href="portfolio-1-col.html">1 Column Portfolio</a>
+                                <a href="portfolio-1-col.html">Auftritte in 2016</a>
                             </li>
                             <li>
-                                <a href="portfolio-2-col.html">2 Column Portfolio</a>
+                                <a href="portfolio-2-col.html">Auftritte in 2015</a>
                             </li>
                             <li>
-                                <a href="portfolio-3-col.html">3 Column Portfolio</a>
+                                <a href="portfolio-3-col.html">Auftritte in 2014</a>
                             </li>
                             <li>
-                                <a href="portfolio-4-col.html">4 Column Portfolio</a>
+                                <a href="portfolio-4-col.html">Auftritte in 2013</a>
                             </li>
+                            <!--
                             <li>
                                 <a href="portfolio-item.html">Single Portfolio Item</a>
                             </li>
+                            -->
                         </ul>
                     </li>
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <b class="caret"></b></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Infos <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li>
-                                <a href="blog-home-1.html">Blog Home 1</a>
+                                <a href="blog-home-1.html">Chor News</a>
                             </li>
                             <li>
-                                <a href="blog-home-2.html">Blog Home 2</a>
+                                <a href="blog-home-2.html">Probe News</a>
                             </li>
                             <li>
-                                <a href="blog-post.html">Blog Post</a>
+                                <a href="blog-post.html">Sonstiges</a>
                             </li>
                         </ul>
                     </li>
+                    <!--
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Other Pages <b class="caret"></b></a>
                         <ul class="dropdown-menu">
@@ -110,12 +142,14 @@
                             </li>
                         </ul>
                     </li>
+                    -->
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container -->
     </nav>
+    <!-- navigation -->
 
     <!-- Page Content -->
     <div class="container">
