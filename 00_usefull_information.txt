@@ -1,3 +1,6 @@
+SETUP
+=====
+
 1) setup via github.io
 
 2) web-framework unter getbootstrap.com / startbootstrap.com
@@ -6,3 +9,18 @@
 
 4) https://formspree.io
 https://github.com/zbeekman/zbeekman.github.io/tree/master/_includes
+
+BILDER
+======
+
+0) unter http://homepageanleitung.de/lizenzfreie-bilder/
+
+1) Bearbeitung mit Gimp
+
+2) Dateigröße anpassen per Bild > Bild skalieren
+
+3) Bild > Leinwandgröße anpassen
+
+4) Filter > Verbessern > Schärfen
+
+5) Datei exportieren als jpg (Qualität reduzieren, per Bildvorschau kontrollieren)
