@@ -24,3 +24,16 @@ BILDER
 4) Filter > Verbessern > Schärfen
 
 5) Datei exportieren als jpg (Qualität reduzieren, per Bildvorschau kontrollieren)
+
+ASPEKTE
+=======
+
+Man kann sich für nicht gewerbliche Seiten kostenlos ein Impressum unter
+
+https://www.e-recht24.de/impressum-generator.html
+
+sowie die Datenschutzhinweise kostenfrei unter
+
+https://datenschutz-generator.de
+
+zusammenstellen!
