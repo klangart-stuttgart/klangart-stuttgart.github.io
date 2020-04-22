@@ -10,6 +10,7 @@ SETUP
 4) https://formspree.io
 https://github.com/zbeekman/zbeekman.github.io/tree/master/_includes
 
+
 BILDER
 ======
 
@@ -25,6 +26,7 @@ BILDER
 
 5) Datei exportieren als jpg (Qualität reduzieren, per Bildvorschau kontrollieren)
 
+
 ASPEKTE
 =======
 
@@ -38,6 +40,7 @@ https://datenschutz-generator.de
 
 zusammenstellen!
 
+
 EINSTELLEN VON AUFNAHMEN/MITSCHNITTEN
 =====================================
 
@@ -49,7 +52,7 @@ Damit scheidet das für uns aus.
 
 Dagegen ist das Einstellen von Einspielungen auf Seiten, die nicht
 über Links durch die Allgemeinheit erreicht werden können, erlaubt.
-Dies wurde so von David Dehn kommuniziert.
+Dies wurde so von David Dehn erklärt.
 
 
 Wortwolken erstellen
